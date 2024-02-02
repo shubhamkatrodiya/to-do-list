@@ -1,0 +1,52 @@
+li{
+    list-style: none;
+}
+.listBox li{
+    width: 400px;
+    background-color: rgb(45, 101, 150);
+    display: flex !important;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+p
+{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.listBox li
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+.list{
+    width: 200px;
+    text-align: left;
+    font-size: 20px;
+    margin: 5px 0 !important;
+}
+input{
+    font-size: 20px ;
+    text-align: left !important;
+}
+input[type="checkbox"]:checked  + .list{
+    text-decoration: line-through black;
+    color: white;
+}
+.checkbox
+{
+    justify-content: space-between;
+}
+button
+{
+    padding: 5px 10px;
+}
+.main
+{
+    width: 100px;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+}
